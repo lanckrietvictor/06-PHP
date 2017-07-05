@@ -1,22 +1,24 @@
 <?php  
+
+//exo 1
 	$age = 1;
 	if ($age >= 18) {
-		echo "Vous êtes majeur";
+		$display_1 = "Vous êtes majeur";
 	}
 
 	else {
-		echo "Vous êtes mineur";
+		$display_1 =  "Vous êtes mineur";
 	}
 
-
+//exo 2
 	echo "<hr>";
 	$IsEasy = false;
 	if ($IsEasy) {
-		echo "C'est facile!!";
+		$difficulty = "C'est facile!!";
 	}
 
 	else {
-		echo "C'est difficile!!";
+		$difficulty = "C'est difficile!!";
 	}
 
 	echo "<hr>";
@@ -109,7 +111,18 @@
 		echo "C'est pas bon";
 	}
 
-
-
-
 ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<h1>Exercice 1</h1>
+<p><?php echo $display_1 ?></p>
+
+<h1>Exercice 2</h1>
+<p><?php echo $difficulty ?></p>
+</body>
+</html>
